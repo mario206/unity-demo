@@ -35,7 +35,7 @@ jobs:
             UNITY_PASSWORD: ${{ secrets.PASS }}
             UNITY_SERIAL: ${{ secrets.SERIAL }}
         with:
-          targetPlatform: WebGL
+          targetPlatform: iOS
 
       # Output
       - uses: actions/upload-artifact@v2
